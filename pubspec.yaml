@@ -23,4 +23,5 @@ flutter:
   uses-material-design: true
   assets:
     - 'lib\asset\walking.json'
+    - 'lib\asset\footsteps.json'
     
