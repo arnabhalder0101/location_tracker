@@ -15,6 +15,7 @@ class MyAlertBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
+      backgroundColor: Colors.amber[100],
       title: title,
       content: content,
       actions: actions,

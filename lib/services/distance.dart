@@ -37,6 +37,7 @@ class Distance {
 
   double expectedCoveredArea(double bef_lat, double bef_lon) {
     // point2 - creation by adding 2 meter
+    // var d = 0.00001;
     var d = 0.000031;
     double exp_lat = bef_lat + d;
     double exp_lon = bef_lon + d;

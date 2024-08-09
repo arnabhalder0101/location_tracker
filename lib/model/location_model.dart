@@ -16,7 +16,7 @@ class LocationModel extends ChangeNotifier {
       desiredAccuracy: LocationAccuracy.high,
     );
 
-    await Future.delayed(const Duration(milliseconds: 1000));
+    await Future.delayed(const Duration(milliseconds: 800));
 
     newLtLn.add(position.latitude);
     newLtLn.add(position.longitude);

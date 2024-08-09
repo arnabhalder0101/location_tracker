@@ -36,7 +36,7 @@ class MainApp extends StatelessWidget {
       routes: {
         '/home': (context)=> HomePage(),
         '/about' : (context)=> AboutPage(),
-        '/lo': (context)=> Animationtest(),
+        // '/lo': (context)=> Animationtest(),
       },
     );
   }

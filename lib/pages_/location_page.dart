@@ -258,7 +258,7 @@ class _LocationPageState extends State<LocationPage> {
             ),
 
             // Animation --
-            Animationtest(),
+            Animationtest(isUserMoving: userMoved,),
 
             const SizedBox(
               height: 20,
