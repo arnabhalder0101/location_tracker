@@ -1,5 +1,4 @@
 import 'dart:math';
-import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:location_tracker/Components/buttons.dart';
 import 'package:location_tracker/pages_/animationTest.dart';

@@ -24,4 +24,5 @@ flutter:
   assets:
     - 'lib\asset\walking.json'
     - 'lib\asset\footsteps.json'
+    - 'lib\asset\splash_logo.png'
     

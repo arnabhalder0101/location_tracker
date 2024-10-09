@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:location_tracker/model/location_model.dart';
-import 'package:location_tracker/pages_/animationTest.dart';
 import 'package:location_tracker/pages_/home_page.dart';
+import 'package:location_tracker/pages_/splashScreen.dart';
 // import 'dart:nativewrappers/_internal/vm/lib/core_patch.dart';
 import 'package:provider/provider.dart';
 import 'pages_/about_page.dart';
@@ -32,7 +32,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage(),
+      home: SplashScreen(),
       routes: {
         '/home': (context)=> HomePage(),
         '/about' : (context)=> AboutPage(),
