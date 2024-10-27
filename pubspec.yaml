@@ -23,7 +23,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - 'lib\asset\walking.json'
-    - 'lib\asset\footsteps.json'
-    - 'lib\asset\splash_logo.png'
+    - 'lib/asset/'
     

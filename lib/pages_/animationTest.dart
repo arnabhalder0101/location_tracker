@@ -74,9 +74,9 @@ class _AnimationtestState extends State<Animationtest>
   @override
   Widget build(BuildContext context) {
     return Lottie.asset(
-      height: 190,
-      r'lib\asset\walking.json',
+      'lib/asset/walking.json',
       controller: controller,
+      height: 190,
       // onLoaded: (composition) {
       //   // setState(() {
       //   //   // if logic --
